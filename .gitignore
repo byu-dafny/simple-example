@@ -1,0 +1,6 @@
+dafny/bin
+dafny/obj
+dafny/*.cs
+*.dll
+src
+target
