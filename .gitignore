@@ -1,6 +1,7 @@
-dafny/bin
-dafny/obj
-dafny/*.cs
+bin
+obj
+*.cs
 *.dll
+*.java
 src
 target

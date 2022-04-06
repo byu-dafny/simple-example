@@ -22,8 +22,8 @@ Run the provided shell script
 
 which will cross-compile all .dfy files and place the target code in a single file within the dafny directory.  
 
-Utils.dfy contains an Assertions class that is not included in the cross-compilation.  You will need to inject the XUnit assertion library found in utils/Assertions.cs in order for your tests to run.
+Utils.dfy contains an Assertions class that is not included in the cross-compilation.  You will need to include the XUnit assertion library found in utils/Assertions.cs in order for your tests to run.  This can be accomplished by deleting the stub definition of the Assertions class from the generated .cs file.  Dotnet will automatically include utils/Assertion.cs.
 
 To run the XUnit tests
 
-    $ test DafnyTests.csproj
+    $ dotnet test DafnyTests.csproj
