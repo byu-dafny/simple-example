@@ -5,3 +5,5 @@ obj
 *.java
 src
 target
+coveragereport
+*.json
