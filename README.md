@@ -22,7 +22,7 @@ To generate coverage reports for your test suite using Jacoco, run
 
     $ mvn test jacoco:report
 
-# Compile to C# using XUnit
+# Compile to C#
 
 Run the provided shell script
 
